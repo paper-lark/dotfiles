@@ -1,0 +1,9 @@
+[gpg]
+	program = gpg
+[user]
+	email = paperlark@yandex.com
+	name = Max Zhuravsky
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
