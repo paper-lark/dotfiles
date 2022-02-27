@@ -1,0 +1,15 @@
+# Files
+data.location=/Users/paperlark/.task
+
+# Report format
+report.next.columns=id,status,project,due,description.truncated
+report.next.labels=ID,Status,Project,Due,Description
+journal.info=no
+dateformat.info=D.M.Y
+
+# Colors
+color=on
+include /opt/homebrew/share/doc/task/rc/dark-256.theme
+
+# TUI configuration
+uda.taskwarrior-tui.selection.indicator=
