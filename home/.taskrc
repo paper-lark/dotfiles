@@ -2,8 +2,8 @@
 data.location=/Users/paperlark/.task
 
 # Report format
-report.next.columns=id,status,project,due,description.truncated
-report.next.labels=ID,Status,Project,Due,Description
+report.next.columns=id,status,project,due,tags,description.truncated
+report.next.labels=ID,Status,Project,Due,Tags,Description
 journal.info=no
 dateformat.info=D.M.Y
 
@@ -13,3 +13,8 @@ include /opt/homebrew/share/doc/task/rc/dark-256.theme
 
 # TUI configuration
 uda.taskwarrior-tui.selection.indicator=
+
+# Contexts
+context.personal.read=+university or +home
+context.work.read=+work
+context.work.write=+work
